@@ -39,6 +39,7 @@ body{
 .form-group::before{
 	content: "\f007";
  	font-family: 'Font Awesome\ 5 Free';
+ 	font-weight: 900;
 	position: absolute;
 	font-size: 22px;
 	color: #cb2b2b;
