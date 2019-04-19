@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+  font-family: 'Lato', sans-serif;
+  background: url(img/droide1.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.main-section{
+	margin: 0 auto;
+	margin-top: 130px;
+	padding: 0;
+}
+.modal-content{
+	background-color: #3b4652;
+	opacity: .95;
+	padding: 0 18px;
+	box-shadow: 0px 0px 3px
+}
+.user-img{
+	margin-top: -50px;
+	margin-bottom: 35px;
+}
+.user-img img{
+	height: 100px;
+	width: 100px;
+	border-radius: 5px;
+}
+.form-group{
+	margin-bottom: 25px;
+}
+.form-group input{
+	height: 42px;
+	border-radius: 5px;
+	border: 0;
+	font-size: 18px;
+	padding-left: 54px;
+}
+.form-group::before{
+	font-family: 'Font Awesome\ 5 Free';
+	content: "\f007";
+	position: absolute;
+	font-size: 22px;
+	color: #cb2b2b;
+	left: 28px;
+	padding-top: 4px;
+}
+.form-group: last-of-type::before{
+	content: "\f023";
+}
+button{
+	width: 40%;
+	margin: 5px 0 25px;
+}
+.btn{
+	background-color: #666b71;
+	color: #fff;
+	font-size: 19px;
+	padding: 7px 14px;
+	border-radius: 5px;
+	border-bottom: 4px solid #666b71;  
+}
+.btn:hover, .btn:focus{
+	background-color: #cb2b2b!important;
+	border-bottom: 4px solid #cb2b2b!important;
+}
+.svg-inline--fa{
+	font-size: 20px;
+	margin-right: 7px;
+}
+.forgot{
+	padding: 5px 0 25px;
+}
+.forgot a{
+	color: #cb2b2b;
+}
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
