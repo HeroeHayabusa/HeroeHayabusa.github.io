@@ -37,8 +37,8 @@ body{
 	padding-left: 54px;
 }
 .form-group::before{
-	font-family: 'Font Awesome\ 5 Free';
 	content: "\f007";
+ 	font-family: 'Font Awesome\ 5 Free';
 	position: absolute;
 	font-size: 22px;
 	color: #cb2b2b;
